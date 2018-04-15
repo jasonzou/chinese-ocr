@@ -8,10 +8,12 @@
 
 ## 环境部署
 ``` Bash
+## on Centos
+sudo dnf install conda
 ##GPU环境
-sh setup.sh
+./setup.sh
 ##CPU环境
-sh setup-cpu.sh
+./setup-cpu.sh
 ```
 
 # 模型训练
