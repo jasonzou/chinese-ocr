@@ -8,8 +8,10 @@
 
 ## 环境部署
 ``` Bash
-## on Centos
-sudo dnf install conda
+## on Centos, the default conda package does not work properly out the box.
+# sudo dnf install conda
+# install Miniconda instead
+
 ##GPU环境
 ./setup.sh
 ##CPU环境
